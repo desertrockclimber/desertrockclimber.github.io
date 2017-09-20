@@ -1,0 +1,274 @@
+.title{
+	font-size: 20px;
+	color: white;
+	font-family: Georgia, Times, serif
+	margin-top: 10px;
+	text-align: center;
+	
+	
+}
+
+header {
+	height: 50px;
+	margin-left: 75px;
+	width: 200px;
+	float: left;
+	background-color: #4aaaa5;
+	border: solid #aaa;
+
+	
+}
+#backgroundimg{
+	background-image: url("images/slc-panorama.jpg");
+
+}
+#navigation{
+	background-color: #fff;
+	float: right;
+	height: 50px;
+	width: 250px;
+	margin-right: 175px;
+
+
+
+}
+.navigation{
+	font-family: Georgia, Times, serif
+	color: #777777;
+	text-align: center;
+	margin-top: 20px;
+	
+}
+
+.lower-page{
+	background-image: url("../images/triangular.png");
+	background-repeat: 20px;
+	width: 1200px;
+	clear: both;
+	height: 500px;
+	border-top:solid #ccc 5px;
+	border-bottom: solid #4aaaa5 10px;
+}
+
+#about-me{
+	background-color: #eee;
+	width: 650px;
+	float: left;
+	margin-top: 20px;
+	border: solid #ccc;
+	padding-right: 10px;
+	color: #777777;
+
+
+}
+img#bio-image{
+	float-left;
+	padding: 5px;
+
+}
+
+.leftcolumn{
+	margin-left: 75px;
+	margin-top: 30px;
+	background-color: #ccc;
+	width: 40%
+	height: 300px;
+	clear: both;
+
+	
+	
+}
+#paragraph-text{
+	background-color: #eee;
+
+
+}
+
+.contact-info{
+	width: 240px;
+	height: 150px;
+	background-color: #eee;
+	float: right;
+	margin-right: 150px;
+	margin-top: 20px;
+	padding: 10px;
+	border: solid #ccc;
+}
+
+h1{
+	clear: both;	
+}
+
+
+.aboutme{
+	font-size: 20px;
+	margin-left: 5px;
+	border-bottom: 4px;
+	margin-right: 5px;
+	height: 30px;
+	border-bottom: solid #ccc;
+
+}
+
+h3{
+	font-size: 20px;
+	text-align: center;
+	color: #777777;
+	font-family: Georgia, Times, serif
+}
+
+footer{
+	background-color: #666666;
+	margin-bottom: 30px;
+	clear: both;
+	text-align: center;
+	height: 40px;
+
+	
+	
+}
+
+#copyright{
+	color: #aaa;
+	
+}
+img {
+	border-radius: 8px;
+}
+
+img#github{
+	margin-left: 20px;
+}
+
+.connect{
+	border-bottom: solid #ccc;
+	height: 25px;
+
+}
+
+#social{
+	margin-top: 20px;
+	align-content: center;
+	margin-left: 30px;	
+}
+p{
+	text-align: justify;
+	font-family: Arial, Helvetica, sans-serif;
+}
+a{
+	text-decoration: none;
+	color: #777777;
+	font-family: Arial, Helvetica, sans-serif;
+
+}
+body{
+	max-width: 1200px;
+	margin: auto;
+}
+
+input[type=text], select, textarea {
+	width: 90%;
+	padding: 10px;
+	border: solid 1px #ccc;
+	margin: auto;
+
+
+}
+#contactme{
+width: 650px;
+background: #eee;
+
+}
+input[type=submit]:hover {
+    background-color: #45a049;
+ }
+
+ input[type=submit]{
+	background-color: #4aaaa5;
+	color: white;
+
+
+ }
+ label{
+ 	padding-top: 10px;
+ }
+
+ form{
+	margin-top: 10px;
+	padding-left: 20px;
+ }
+ .box {
+  /* Relative Position */
+  position: relative;
+  width: 225px;
+  height: 200px;
+  background: #2db34a;
+  border: 1px #eee;
+}
+
+ .box-1 {
+  top: 3%;
+  left: 0%;
+  float: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 50px;
+  margin-right: 0px;
+}
+
+.box-2 {
+  top: 0%;
+  right: 0px;
+  float: right;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  margin-right: 50px;
+}
+
+.box-3 {
+  right: 0%;
+  bottom: 0%;
+  float: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 50px;
+  margin-right: 0px;
+}
+
+.box-4 {
+  bottom: 0;
+  float: right;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  margin-right: 50px;
+}
+
+.box-5{
+	bottom: 0%;
+	float: left;
+	margin-top: 10px;
+  	margin-bottom: 10px;
+  	margin-left: 50px;
+  	margin-right: 0px;
+}
+.box-6{
+	right: 0%;
+	bottom: 0%;
+	float: right;
+	margin-top: 10px;
+  	margin-bottom: 10px;
+  	margin-left: 0px;
+  	margin-right: 50px;
+}
+.lower-pageportfolio{
+	background-image: url("../images/triangular.png");
+	background-repeat: 20px;
+	width: 1200px;
+	clear: both;
+	height: 850px;
+	border-top:solid #ccc 5px;
+	border-bottom: solid #4aaaa5 10px;
+
+}
