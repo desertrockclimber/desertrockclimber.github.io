@@ -1,9 +1,9 @@
 .title{
-	font-size: 20px;
+	font-size: 25px;
 	color: white;
-	font-family: Georgia, Times, serif
-	margin-top: 10px;
+	font-family: Georgia, Times, serif;
 	text-align: center;
+
 	
 	
 }
@@ -37,6 +37,7 @@ header {
 	color: #777777;
 	text-align: center;
 	margin-top: 20px;
+	font-size: 20px;
 	
 }
 
@@ -45,14 +46,15 @@ header {
 	background-repeat: 20px;
 	width: 1200px;
 	clear: both;
-	height: 500px;
+	height: 850px;
 	border-top:solid #ccc 5px;
 	border-bottom: solid #4aaaa5 10px;
 }
 
-#about-me{
+.about-me{
 	background-color: #eee;
-	width: 650px;
+	max-width: 650px;
+	width: 100%;
 	float: left;
 	margin-top: 20px;
 	border: solid #ccc;
@@ -91,12 +93,13 @@ img#bio-image{
 	float: right;
 	margin-right: 150px;
 	margin-top: 20px;
-	padding: 10px;
+	padding: 20px;
 	border: solid #ccc;
 }
 
 h1{
-	clear: both;	
+	clear: both;
+	font-size: 26px;	
 }
 
 
@@ -113,7 +116,7 @@ h1{
 h3{
 	font-size: 20px;
 	text-align: center;
-	color: #777777;
+	color: #4aaaa5;
 	font-family: Georgia, Times, serif
 }
 
@@ -136,8 +139,11 @@ img {
 	border-radius: 8px;
 }
 
-img#github{
+img#github img#linkedin img#stackoverflow{
 	margin-left: 20px;
+	width: 62px;
+	height: 62px;
+	margin-top: 10px;
 }
 
 .connect{
@@ -146,14 +152,16 @@ img#github{
 
 }
 
-#social{
+.social{
 	margin-top: 20px;
 	align-content: center;
 	margin-left: 30px;	
 }
 p{
-	text-align: justify;
+	
 	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 30px;
+	font-size: 18px;
 }
 a{
 	text-decoration: none;
@@ -203,72 +211,40 @@ input[type=submit]:hover {
   width: 225px;
   height: 200px;
   background: #2db34a;
-  border: 1px #eee;
+  border: 1px #aaa;
 }
 
- .box-1 {
-  top: 3%;
-  left: 0%;
-  float: left;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-left: 50px;
-  margin-right: 0px;
-}
 
-.box-2 {
-  top: 0%;
-  right: 0px;
-  float: right;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-left: 0px;
-  margin-right: 50px;
-}
-
-.box-3 {
-  right: 0%;
-  bottom: 0%;
-  float: left;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-left: 50px;
-  margin-right: 0px;
-}
-
-.box-4 {
-  bottom: 0;
-  float: right;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-left: 0px;
-  margin-right: 50px;
-}
-
-.box-5{
-	bottom: 0%;
+.work{
+	width: 200px;
+	position: relative;
 	float: left;
-	margin-top: 10px;
-  	margin-bottom: 10px;
-  	margin-left: 50px;
-  	margin-right: 0px;
-}
-.box-6{
-	right: 0%;
-	bottom: 0%;
-	float: right;
-	margin-top: 10px;
-  	margin-bottom: 10px;
-  	margin-left: 0px;
-  	margin-right: 50px;
-}
-.lower-pageportfolio{
-	background-image: url("../images/triangular.png");
-	background-repeat: 20px;
-	width: 1200px;
-	clear: both;
-	height: 850px;
-	border-top:solid #ccc 5px;
-	border-bottom: solid #4aaaa5 10px;
+	margin: 30px 50px 20px;
 
+}
+.work:nth-child(even){
+	margin-right: 40px;
+}
+
+.work img{
+	width: 100%;
+	order: 0 none;
+	opacity: 90;
+	width: 230px;
+	height: 200px;
+
+}
+
+.work h3{
+	border-bottom: 0;
+	background: #4aaaa5;
+	color: #fff;
+	text-align: center;
+	position: absolute;
+	bottom: 20px;
+	padding: 15px;
+	width: 100%;
+	line-height: 30px;
+	margin-bottom: 0;
+	font-weight: 300;
 }
